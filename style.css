@@ -1,0 +1,140 @@
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui;
+  }
+
+  .cv{
+      display: flex;
+  margin: 30px;
+  border: 1px solid #0c00006b;
+  border-radius: 19px;
+  overflow: hidden;
+
+  }
+
+  .dates{
+      flex: 1;
+  background: rgb(17, 17, 17);
+  color: white;
+  text-align: end;
+  padding: 18px;
+  }
+  .content{
+      flex:3;
+      padding: 20px;
+  }
+
+.grid-cv {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: max-content;
+}
+
+.name{
+  cursor: pointer;
+}
+
+.grid-item {
+  padding: 8px 179px 0 0;
+  display: flex;
+}
+.grid-item p{
+  padding: 0 10px;
+}
+i{
+  color: white;
+  background-color: rgb(229, 220, 226);
+  padding: 5px;
+  border-radius: 52%;
+}
+.dark-green{
+   color: rgb(11, 79, 34);
+   padding-bottom: 12px;
+}
+.top-info{
+   padding-bottom: 21px;
+}
+.heading{
+   margin-top:30px ;
+}
+.cv-content{
+  padding: 12px 37px;
+  border-left: 1px solid rgb(230, 233, 234);
+  margin-left: 13px;
+}
+.cv-heading{
+   display: flex;
+   padding-bottom: 4px;
+
+}
+.cv-heading i{
+  position: absolute;
+  transform: translate(-50px, -1px);
+  font-size: 15px;
+  padding: 8px;
+  height: 38px;
+  width: 38px;
+}
+.cv-heading h3{
+  font-size: 24px;
+}
+.dot{
+  height: 8px;
+  width: 8px;
+  background:  rgb(4, 53, 20);
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-39px, 0);
+}
+.normal{
+   display: flex;
+   align-items: center;
+   padding: 5px 0;
+}
+ul li{
+   margin-left:20px ;
+}
+.unpad{
+   padding-top: 0;
+}
+.normal p{
+white-space: nowrap;
+}
+.dates-left{
+  position: absolute;
+  transform: translate(-218px, 0px);
+  color: white ;
+  width: 130px;
+  text-align: end;
+
+}
+.levels{
+   display: flex;
+}
+.level{
+   height: 10px;
+   width: 10px;
+   background:  rgb(4, 71, 16);
+   border-radius: 100%;
+   margin: 0 0 0 5px;
+}
+.level-none{
+   height: 10px;
+   width: 10px;
+   background:  rgb(3, 36, 18);
+   border-radius: 100%;
+   margin: 0 0 0 4px;
+}
+.perfection{
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.status p{
+  font-size: 10px;
+}
